@@ -34,7 +34,7 @@ const errorHandlerMiddleware = require('./middleware/error-handler')
 server.use(morgan('tiny'))
 
 
-
+server.use(cors())
 
 // const corsOptions = {
 //     origin: 'http://localhost:5173',
