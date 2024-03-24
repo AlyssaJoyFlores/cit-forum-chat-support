@@ -50,7 +50,7 @@ const getTopForums = async (req, res) => {
         }
     ]);
 
-    res.status(StatusCodes.OK).json({topForums});
+    res.status(StatusCodes.OK).json(topForums);
 }
 
 
